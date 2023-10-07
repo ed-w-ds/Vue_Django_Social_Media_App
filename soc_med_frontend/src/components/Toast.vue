@@ -1,13 +1,11 @@
 <script setup>
 import { useToastStore } from '@/stores/toast'
 
+// vue toast
 const store = useToastStore()
-
-return {
-    store
-}
 </script>
 
+<!-- will only render if  -->
 <template>
     <div
         v-if="store.isVisible"

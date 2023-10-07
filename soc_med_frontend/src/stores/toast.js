@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 
+// keep track of message
 export const useToastStore = defineStore({
     id: 'toast',
 
